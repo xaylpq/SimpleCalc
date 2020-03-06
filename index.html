@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Adaptive Calculator</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+		<div class="counter-title">Calculate the cost of your vacation</div>
+		<div class="counter-block">
+			<div class="counter-block-option">Number of people</div>
+			<input type="number" min="1" step="1" class="counter-block-input">
+		</div>
+		<div class="counter-block">
+			<div class="counter-block-option">How many days</div>
+			<input type="number" min="1" step="1" class="counter-block-input">
+		</div>
+		<div class="counter-block">
+			<div class="counter-block-option">Choose a base</div>
+			<select name="place" id="select">
+				<option id="1" value="1">Turkey</option>
+				<option id="2" value="1.5">Karelia</option>
+				<option id="3" value="1.8">Egypt</option>
+			</select>
+		</div>
+		<div class="counter-total">
+			Total amount<br>
+			<span id="total">1</span>
+		</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
